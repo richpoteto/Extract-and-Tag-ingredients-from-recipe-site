@@ -2,9 +2,8 @@
 
 <img src="https://img.shields.io/badge/coverage-75%25-brightgreen.svg?style=flat-square" alt="Code coverage">&nbsp;<a href="https://travis-ci.org/schollz/ingredients"><img src="https://img.shields.io/travis/schollz/ingredients.svg?style=flat-square" alt="Build Status"></a>&nbsp;<a href="https://godoc.org/github.com/schollz/ingredients"><img src="http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square" alt="Go Doc"></a> 
 
-This is a Golang library for *ingredient tagging* and *extraction* for **any recipe on the internet**. This library compartmentalizes and improves aspects of recipe extraction that I did previously with [schollz/meanrecipe](https://github.com/schollz/meanrecipe) and [schollz/extract_recipe](https://github.com/schollz/extract_recipe).
+This is a Golang library for *ingredient tagging* and *extraction* for **any recipe on the internet**.
 
-Try it online: https://schollz.com/blog/ingredients/#try
 
 ## Usage
 
@@ -53,11 +52,6 @@ fmt.Println(r.IngredientList())
 
 Please make an issue if you find a problem.
 
-
-## How does it work?
-
-See my blog post about it: [schollz.com/blog/ingredients](https://schollz.com/blog/ingredients).
-
 ## Develop
 
 If you modify the `corpus/` information then you will need to run 
@@ -65,17 +59,6 @@ If you modify the `corpus/` information then you will need to run
 ```
 $ go generate
 ```
-
-before using the library again.
-
-## Contributing
-
-Pull requests are welcome. Feel free to...
-
-- Revise documentation
-- Add new features
-- Fix bugs
-- Suggest improvements
 
 ## License
 
